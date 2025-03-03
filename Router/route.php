@@ -9,5 +9,6 @@ require_once "Controllers/UserController.php";
 $route = new Router();
 $route->get("/", [WelcomeController::class, 'welcome']);
 $route->get("/users", [UserController::class, 'index']);
+$route->get("/manage", [ManageController::class, 'manage']);
 
 $route->route();
