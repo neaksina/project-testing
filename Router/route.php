@@ -4,6 +4,7 @@ require_once "Controllers/BaseController.php";
 require_once "Database/Database.php";
 require_once "Controllers/WelcomeController.php";
 require_once "Controllers/UserController.php";
+require_once "Controllers/ManageController.php";
 
 
 $route = new Router();
